@@ -1,0 +1,79 @@
+/* Tipografía y diseño general */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #333;
+    background: #fffdf8;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.hero {
+    background: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?fit=crop&w=1200&q=80') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Secciones */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #c66;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    background: #c66;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #a44;
+}
+
+/* Footer */
+footer {
+    background: #f3f3f3;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
